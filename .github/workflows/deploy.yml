@@ -40,7 +40,7 @@ jobs:
         run: cargo install trunk
 
       - name: Build
-        run: trunk build --release --public-url /arsievert/
+        run: trunk build --release --public-url /
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
